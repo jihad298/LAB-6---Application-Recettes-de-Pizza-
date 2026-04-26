@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable loggo
+drawable pizza1
+drawable pizza2
+drawable pizza3
+drawable pizza4
+drawable pizza5
+id imgDetail
+id imgPizza
+id lvPizzas
+id tvDetailDesc
+id tvDetailEtapes
+id tvDetailIngr
+id tvDetailMeta
+id tvDetailNom
+id tvMeta
+id tvNom
+layout activity_list_pizza
+layout activity_pizza_detail
+layout activity_splash
+layout row_pizza
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.PizzaRecepies
+style Theme.PizzaRecepies
+xml backup_rules
+xml data_extraction_rules

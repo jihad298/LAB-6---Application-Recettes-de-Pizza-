@@ -1,0 +1,50 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView android:id="@+id/imgDetail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <TextView android:id="@+id/tvDetailNom"
+            android:layout_marginTop="12dp"
+            android:textSize="20sp" android:textStyle="bold"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tvDetailMeta"
+            android:layout_marginTop="4dp" android:textColor="#888"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Description :"
+            android:textStyle="bold" android:layout_marginTop="16dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tvDetailDesc"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Ingrédients :"
+            android:textStyle="bold" android:layout_marginTop="16dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tvDetailIngr"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Étapes :"
+            android:textStyle="bold" android:layout_marginTop="16dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tvDetailEtapes"
+            android:layout_marginTop="4dp" android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
